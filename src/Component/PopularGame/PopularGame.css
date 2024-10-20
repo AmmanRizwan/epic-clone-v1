@@ -136,11 +136,33 @@
 {
   .game-list
   {
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 160px 160px;
     gap: 10px;
     row-gap: 40px;
     justify-content: center;
-    width: 150px;
   }
+}
 
+@media (max-width: 550px)
+{
+  .game-list
+  {
+    grid-template-columns: 170px 170px;
+    gap: 10px;
+    gap: 10px;
+    row-gap: 40px;
+    justify-content: center;
+
+  }
+}
+
+@media (max-width: 450px)
+{
+  .game-list
+  {
+    grid-template-columns: 160px 160px;
+    gap: 5px;
+    row-gap: 40px;
+    justify-content: center;
+  }
 }

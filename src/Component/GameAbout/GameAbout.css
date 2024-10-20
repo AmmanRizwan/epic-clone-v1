@@ -3,7 +3,6 @@
   width: 820px;
 }
 
-
 .game-title
 {
   font-size: 40px;
@@ -184,14 +183,14 @@
 
 @media (max-width: 1220px)
 {
-  .buyingbutton
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px 30px;
-  gap: 10px;
-}
+    .buyingbutton
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 30px;
+    gap: 10px;
+  }
     .buyingbutton button
   {
     cursor: pointer;
@@ -241,6 +240,14 @@
 
 @media (max-width: 860px)
 {
+  .buyingbutton
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px;
+    gap: 10px;
+  }
   .game-title, .game-rating, .overview-side
   {
     margin-left: 30px;
@@ -270,13 +277,34 @@
 
 @media (max-width: 650px)
 {
+  .buyingbutton
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    gap: 10px;
+  }
+
   .game-title
   {
-    font-size: 20px;
+    font-size: 25px;
   }
   .game-para-info
   {
     margin: 10px 10px;
     font-size: 11px;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .game-title{
+    font-size: 25px;
+  }
+
+  .game-para-info
+  {
+    font-size: 9px;
   }
 }

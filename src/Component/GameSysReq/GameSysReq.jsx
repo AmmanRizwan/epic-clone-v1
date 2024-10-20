@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import './GameSysReq.css';
 import {  CiShare1 } from "react-icons/ci";
-
+import { GameContext } from "../../Context/GameContext";
 
 const minimum_requirement = [
   {
@@ -58,12 +58,13 @@ const recommended_requirement = [
 ]
 
 
-const GameSysReq = () => {
+const GameSysReq = (props) => {
+  const {data} = props;
   return (
     <div className="game-sys-req">
       <div className="game-title-sys">
         <h5>
-          Genshin Impact System Requirement
+          {data.name} System Requirement
         </h5>
       </div>
 

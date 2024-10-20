@@ -177,6 +177,12 @@
   {
     width: auto;
   }
+
+  .min-option h5, .reco-option h5
+  {
+    font-size: 12px;
+  }
+  
   .game-title-sys h5
   {
     margin-left: 20px;
@@ -189,11 +195,42 @@
   {
     padding: 20px 30px;
   }
+  .min-option h5, .reco-option h5
+  {
+    font-size: 12px;
+  }
   .min-option p , .reco-option p
   {
     font-size: 12px;
     width: auto;
   }
+  
+  .support-lang p 
+  {
+    font-size: 12px;
+  }
+}
 
-
+@media (max-width: 540px)
+{
+  .min-option h5, .reco-option h5
+  {
+    font-size: 11px;
+  }
+  .requirement
+  {
+    gap: 10px;
+  }
+  .os-system
+  {
+    padding: 25px 5px;
+  }
+  .min-option p , .reco-option p
+  {
+    font-size: 9px;
+  }
+  .support-lang p 
+  {
+    font-size: 9px;
+  }
 }

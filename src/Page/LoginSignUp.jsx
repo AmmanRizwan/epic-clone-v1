@@ -28,13 +28,13 @@ const LoginSignUp = () => {
       <div className="user-input-text">
         <input type="text" placeholder="Enter Your User Name" />
         <input type="text" placeholder="Enter Your Email" />
-        <input type="text" placeholder="Enter Your Password" />
-        <input type="text" placeholder="Re-Enter Your Password" />
+        <input type="password" placeholder="Enter Your Password" />
+        <input type="password" placeholder="Re-Enter Your Password" />
       </div>
       : 
       <div className="user-input-text">
         <input type="text" placeholder="Enter Your User Name or Email" />
-        <input type="text" placeholder="Enter Your Password" />
+        <input type="password" placeholder="Enter Your Password" />
       </div>
       }
 

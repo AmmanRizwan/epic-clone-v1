@@ -89,7 +89,7 @@ const GameAbout = (props) => {
 
       <GameRating />
 
-      <GameSysReq />
+      <GameSysReq data={data} />
 
           </div>
         </div>

@@ -43,18 +43,34 @@
 
 @media (max-width: 850px)
 {
-  .item
-  {
-    margin: 10px;
-  }
-
+  
 }
 
 @media (max-width: 650px)
 {
-
+  .item
+  {
+    margin: 10px;
+  }
+  
   .base_game_image 
   {
     width: 160px;
+  }
+  .item
+  {
+    width: 160px;
+  }
+}
+
+@media (max-width: 450px)
+{
+  .item
+  {
+    width: 130px;
+  }
+  .base_game_image 
+  {
+    width: 130px;
   }
 }

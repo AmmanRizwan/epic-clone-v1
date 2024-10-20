@@ -27,6 +27,7 @@ const NavBar = () => {
 
       <div className="options">
         <Link to='/profile' style={{textDecoration: "none", color: "white"}}><div>Profile</div></Link>
+        <Link to='/login' style={{textDecoration: "none", color: "white"}}><div>Login</div></Link>
         <div>Support</div>
         <div>Distribute</div>
         <div>Download</div>
