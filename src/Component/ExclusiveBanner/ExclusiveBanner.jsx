@@ -33,7 +33,7 @@ const ExclusiveBanner = () => {
             <div className="exclusive-main-banner-detail" id={game.id} >
               <img className="game-icon" src={game.icon} alt="" />
               <h3 className="game-ava">{game.ava}</h3>
-              <p className="game-detail">{game.des}</p>
+              <p className="game-des">{game.des}</p>
               <p className="game-price">{game.price === "Free" ? <></> : <>&#8377;</>}{game.price}</p>
             <button className="buy-btn">Buy Now</button>
             <button className="add-wish" onClick={() => {addToWish(game.id); alert(`${game.name} is Added into Wishlist.`)}} >+ Add to Wishlist</button>

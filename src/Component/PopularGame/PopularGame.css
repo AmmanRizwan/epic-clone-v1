@@ -127,6 +127,8 @@
 {
   .game-list {
     grid-template-columns: 180px 180px 180px;
+    gap: 20px;
+    row-gap: 40px;
   }
 }
 
@@ -135,7 +137,7 @@
   .game-list
   {
     grid-template-columns: 180px 180px;
-    gap: 5px;
+    gap: 10px;
     row-gap: 40px;
     justify-content: center;
     width: 150px;

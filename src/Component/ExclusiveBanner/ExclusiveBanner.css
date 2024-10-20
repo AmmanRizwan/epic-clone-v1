@@ -53,7 +53,7 @@
   font-weight: 600;
   font-family: 12px;
 }
-.game-detail
+.game-des
 {
   margin-bottom: 35px;
   line-height: 25px;
@@ -160,6 +160,7 @@
 
 @media (max-width: 1080px)
 {
+
   .exclusive_banner
   {
     margin-right: 0px;
@@ -207,6 +208,7 @@
 
 @media (max-width: 870px)
 {
+
   .exclusive-main-banner
   {
     margin-right: 0px;
@@ -236,12 +238,21 @@
   {
     margin-bottom: 0px;
   } 
+  .exclusive-main-banner-detail .game-des
+  {
+    font-size: 14px;
+    margin: 0;
+  }
 
 }
 
 @media (max-width: 670px)
 {
-
+  .exclusive-main-banner-detail .game-des
+  {
+    font-size: 11px;
+    margin: 0;
+  }
   .exclusive-main-banner-detail
   {
     width: 300px;

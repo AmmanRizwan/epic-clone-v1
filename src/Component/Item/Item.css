@@ -40,3 +40,21 @@
 {
   background: rgba(0, 0, 0, 0.7);
 }
+
+@media (max-width: 850px)
+{
+  .item
+  {
+    margin: 10px;
+  }
+
+}
+
+@media (max-width: 650px)
+{
+
+  .base_game_image 
+  {
+    width: 160px;
+  }
+}

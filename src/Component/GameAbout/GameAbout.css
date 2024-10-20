@@ -266,5 +266,17 @@
     margin: 0px 20px;
   }
 
+}
 
+@media (max-width: 650px)
+{
+  .game-title
+  {
+    font-size: 20px;
+  }
+  .game-para-info
+  {
+    margin: 10px 10px;
+    font-size: 11px;
+  }
 }

@@ -12,7 +12,7 @@ import { CgClose, CgMenuCheese, CgProfile } from "react-icons/cg";
 
 
 const NavBar = () => {
-  const [close, setClose] = useState(false);
+  const [close, setClose] = useState(true);
   return (
     <>
       <div className={close === true ? "not-visible" : "mobile-nav"}>
