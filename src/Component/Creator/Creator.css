@@ -1,0 +1,110 @@
+.creator
+{
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.creator-text h2
+{
+  margin: 0;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.creator-text button 
+{
+  margin: 0;
+  font-family: Inter;
+  background: transparent;
+  border: none;
+  color: white;
+  border: 2px solid grey;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.left-right-icon
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.left-arrow
+{
+  width: 15px;
+  height: 15px;
+  color: rgb(150, 150, 150);
+  background: rgb(35, 35, 45);
+  padding: 5px 5px;
+  border-radius: 20px;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.right-arrow
+{
+  width: 15px;
+  height: 15px;
+  color: rgb(150, 150, 150);
+  background: rgb(35, 35, 45);
+  padding: 5px 5px;
+  border-radius: 20px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.left-arrow:hover, .right-arrow:hover
+{
+  transition: background 300ms ease-in-out;
+  background: rgb(96, 96, 96);
+}
+
+.creator-text
+{
+  margin: 20px 0px;
+  gap: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.creator-item
+{
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 1030px)
+{
+  .creator-text
+  {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .creator-item
+  {
+    display: flex;
+    margin-left: 20px;
+    justify-content: left;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .creator-text h2
+  {
+    font-size: 16px;
+    width: 300px;
+  }
+}

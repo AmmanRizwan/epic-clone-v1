@@ -1,0 +1,72 @@
+.add-cart
+{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.title-cart
+{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.cart-product 
+{
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  gap: 30px;
+}
+
+
+
+.cart-arrow
+{
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 300ms ease-in;
+}
+
+.cart-arrow:hover
+{
+  transform: translateX(10px);
+}
+
+.cart-img img
+{
+  width: 180px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.cart-name
+{
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+}
+
+.cart-price
+{
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+  color: rgb(201, 102, 102);
+}
+
+@media (max-width: 1220px)
+{
+  .cart-product 
+  {
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,274 @@
+p 
+{
+  color: white;
+  margin: 0;
+}
+
+.epic-logo
+{
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+
+.epic-logo, .store-logo
+{
+  cursor: pointer;
+}
+
+.nav-bar
+{
+  background: rgb(19, 19, 22);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  box-shadow: 3px 3px 15px rgba(19, 19, 22, 0.5);
+}
+
+.nav-bar-left
+{
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-bar-right
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.signin-btn
+{
+  background: rgb(53, 53, 57);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 13px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 400ms ease-in-out;
+}
+
+.signin-btn:hover
+{
+  background: rgb(110, 110, 110);
+}
+
+.download-btn
+{
+  background: rgb(69, 196, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 13px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 400ms ease-in-out;
+}
+
+.download-btn:hover {
+  background: rgb(104, 207, 255);
+}
+
+.epic-support, .epic-distribute
+{
+  font-size: 13px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  transition: color 250ms ease-in;
+  cursor: pointer;
+}
+
+.epic-distribute
+{
+  position: relative;
+}
+
+.epic-distribute:hover .dis-tooltip
+{
+  transition: opacity 400ms ease-in-out;
+  opacity: 1;
+}
+
+.epic-support:hover, .epic-distribute:hover
+{
+  color: rgb(156, 156, 157);
+}
+
+.expore-logo
+{
+  color: white;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.mobile-nav
+{
+  display: none;
+}
+
+.mobile-nav
+{
+  display: none;
+}
+
+.not-visible
+{
+  display: none;
+}
+
+.mobile
+{
+  margin-right: 30px;
+  display: none;
+}
+
+@media (max-width: 800px)
+{
+  .mobile
+  {
+    display: flex;
+  }
+  
+  .not-visible
+  {
+    background: transparent;
+    display: none;
+  }
+
+  .mobile-close-icon
+  {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  .close-btn
+  {
+    width: 40px;
+    height: 40px;
+    color: white;
+  }
+
+  .mobile-nav
+  {
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(35, 35, 35);
+    width: 70%;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -50px;
+  }
+  
+  .title
+  {
+    color: white;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .options
+  {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title-logo
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 800px)
+{
+
+  .nav-bar-left
+  {
+    gap: 10px;
+  }
+
+  .epic-support
+  {
+    display: none;
+  }
+
+  .epic-distribute
+  {
+    display: none;
+  }
+
+  .nav-bar-right
+  {
+    display: none;
+  }
+
+  .mobile-nav
+  {
+    margin-right: 25px;
+    display: block;
+  }
+  .nav-menu-close
+  {
+    display: block;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .nav-menu 
+  {
+    display: block;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .mobile-nav-menu
+  {
+    position: fixed;
+    background: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav-menu div
+  {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}

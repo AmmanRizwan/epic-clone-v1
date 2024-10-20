@@ -1,0 +1,25 @@
+.offer
+{
+  margin: 60px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.offer img 
+{
+  width: 475px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1040px)
+{
+  .offer
+  {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+}

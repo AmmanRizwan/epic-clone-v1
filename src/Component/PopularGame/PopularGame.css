@@ -1,0 +1,144 @@
+.popular-game
+{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.game-list
+{
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px;
+  justify-content: center;
+  gap: 20px;
+  row-gap: 40px;
+}
+
+
+.filter
+{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-option
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-option h5
+{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.filter-option p 
+{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(47, 143, 247);
+}
+
+.keyword-input
+{
+  display: flex;
+  position: relative;
+}
+
+.magnify-style
+{
+  width: 20px;
+  color: rgb(180, 180, 180);
+}
+
+.magnify
+{
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.filter-input
+{
+  padding-left: 40px;
+  margin-bottom: 8px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  background: rgb(32, 32, 36);
+  border-radius: 3px;
+  flex: 1;
+  outline: none;
+}
+
+.filter-input::placeholder 
+{
+  color: rgb(180, 180, 180);
+}
+
+.filter-line
+{
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.option 
+{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.option p {
+  color: rgb(180, 180, 180);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: rotate(180deg)
+}
+
+.option h6 {
+  color: rgb(180, 180, 180);
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1080px)
+{
+  .filter
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 850px)
+{
+  .game-list {
+    grid-template-columns: 180px 180px 180px;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .game-list
+  {
+    grid-template-columns: 180px 180px;
+    gap: 5px;
+    row-gap: 40px;
+    justify-content: center;
+    width: 150px;
+  }
+
+}

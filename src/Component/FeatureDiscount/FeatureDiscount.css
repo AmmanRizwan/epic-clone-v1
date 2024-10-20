@@ -1,0 +1,89 @@
+.feature-discount
+{
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-text h2
+{
+  margin: 0;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.featured-text button 
+{
+  margin: 0;
+  font-family: Inter;
+  background: transparent;
+  border: none;
+  color: white;
+  border: 2px solid grey;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.featured-text
+{
+  margin: 20px 0px;
+  gap: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-text-style
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+}
+
+.feature-item
+{
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-arrow-style
+{
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+@media (max-width: 1030px)
+{
+  .featured-text
+  {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .feature-item
+  {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .feature-text h2
+  {
+    font-size: 16px;
+  }
+}

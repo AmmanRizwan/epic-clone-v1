@@ -1,0 +1,227 @@
+.footer
+{
+  padding: 30px 70px;
+  padding-bottom: 40px;
+  background: #202020;
+}
+
+.social-link
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-logo
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-section
+{
+  width: 35px;
+  height: 35px;
+  color: white;
+  border: 2px solid white;
+}
+
+.resources, .madeby
+{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.res-heading, .madeby-heading
+{
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+  margin-bottom: 7px;
+}
+
+.res-link
+{
+  display: grid;
+  grid-template-columns: 210px 120px 150px;
+}
+
+.res-link p, .madeby-link p
+{
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 4px;
+  transition: color 400ms ease-in-out;
+}
+
+.madeby-link
+{
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
+
+hr{
+  border: 1px solid rgb(69, 69, 69);
+  border-radius: 50px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.footer-para
+{
+  margin-top: 30px;
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  line-height: 24px;
+  color: white;
+  width: 735px;
+}
+
+.footer-term
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-term div p
+{
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+.term 
+{
+  display: flex;
+  gap: 20px;
+}
+
+.res-link p:hover, .madeby-link p:hover
+{
+  color: rgb(10, 120, 210);
+}
+
+.epic-logo-footer
+{
+  color: white;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.unreal-engine
+{
+  color: white;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.epic-unreal
+{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.facebook-logo-footer, .twitter-logo-footer, .youtube-logo-footer
+{
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1080px)
+{
+  .footer
+  {
+    padding: 30px 50px;
+    padding-bottom: 30px;
+  }
+
+  .facebook-logo-footer, .twitter-logo-footer, .youtube-logo-footer
+  {
+    height: 25px;
+    width: 25px;
+  }
+
+  .top-section
+  {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .res-link p, .madeby-link p
+  {
+    font-size: 13px;
+  }
+
+  .res-heading, .madeby-heading
+  {
+    font-size: 14px;
+  }
+
+  .term p
+  {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .res-link
+  {
+    grid-template-columns: 210px 210px;
+  }
+
+  .res-link p, .madeby-link p
+  {
+    margin-bottom: 8px;
+  }
+
+  .footer
+  {
+    padding: 30px 30px;
+  }
+
+  .footer-para
+  {
+    font-size: 11px;
+    line-height: 22px;
+    color: white;
+    width: 600px;
+  }
+
+  .footer-term
+  {
+    flex-direction: column;
+  }
+
+  .term
+  {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .res-link
+  {
+    grid-template-columns: 150px 120px;
+  }
+
+  .footer-para
+  {
+    width: auto;
+  }
+}

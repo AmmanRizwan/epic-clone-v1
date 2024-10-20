@@ -1,0 +1,15 @@
+.game-detail-section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+
+@media (max-width: 1220px)
+{
+  .game-detail
+  {
+    display: none;
+  }
+}

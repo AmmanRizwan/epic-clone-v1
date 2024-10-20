@@ -1,0 +1,42 @@
+.item
+{
+  width: 180px;
+}
+
+.base_game_image
+{
+  width: 180px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.game_type
+{
+  font-size: 13px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  color: rgb(180, 180, 180);
+  margin-top: 3px;
+}
+
+.name
+{
+  margin: 0;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  margin-top: 8px;
+}
+
+.price 
+{
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  margin-top: 15px;
+}
+
+.base_game_image:hover
+{
+  background: rgba(0, 0, 0, 0.7);
+}

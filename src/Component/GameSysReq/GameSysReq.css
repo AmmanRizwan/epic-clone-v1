@@ -1,0 +1,199 @@
+.game-sys-req
+{
+  width: 820px;
+}
+
+.game-title-sys
+{
+  margin-bottom: 20px;
+}
+
+.game-title-sys h5
+{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+.sys-title
+{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.sys-title h5
+{
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.sys-title hr
+{
+  margin: 0;
+  border: 1px solid rgb(10, 210, 230);
+}
+
+.minimum
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mini-title, .recom-title 
+{
+  margin-bottom: 25px;
+  width: 50%;
+}
+
+.mini-title h5, .recom-title h5
+{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.min-option h5, .reco-option h5
+{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(120, 120, 120);
+  margin-bottom: 5px;
+}
+
+.min-option p , .reco-option p
+{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.min-option, .reco-option
+{
+  margin-bottom: 25px;
+}
+
+.requirement
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.os-system
+{
+  padding: 40px 50px;
+  background: rgb(28, 28, 28);
+  border-radius: 10px;
+}
+
+.support-lang h5
+{
+  font-size: 15px;
+  color: rgb(120, 120, 120);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.support-lang p 
+{
+  font-size: 14px;
+  font-family: 500;
+  line-height: 24px;
+}
+
+.support-lang 
+{
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.copyright h5
+{
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.policy p
+{
+  font-size: 14px;
+  font-weight: 400px;
+  color: white;
+}
+
+.policy
+{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  text-align: center;
+}
+
+.share-icon
+{
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.game-sys-req
+{
+  margin-bottom: 100px;
+}
+
+@media (max-width: 880px)
+{
+  .min-option p , .reco-option p
+  {
+    font-size: 13px;
+    width: auto;
+  }
+
+  .min-option, .reco-option
+  {
+    margin-bottom: 15px;
+  }
+
+  .game-para-info
+  {
+    width: auto;
+  }
+  .support-lang 
+  {
+    margin-bottom: 50px;
+    width: 400px;
+    font-size: 13px;
+  }
+  .game-sys-req
+  {
+    width: auto;
+  }
+  .game-title-sys h5
+  {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .os-system
+  {
+    padding: 20px 30px;
+  }
+  .min-option p , .reco-option p
+  {
+    font-size: 12px;
+    width: auto;
+  }
+
+
+}

@@ -1,0 +1,106 @@
+.search-bar
+{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 200px;
+  background: rgb(16, 16, 20);
+  height: 70px;
+  margin-bottom: 40px;
+}
+
+p
+{
+  margin: 0;
+}
+
+.search-bar-input-div
+{
+  position: relative;
+}
+
+.magnify
+{
+  position: absolute;
+  left: 4px
+}
+
+.magnify-glass
+{
+  width: 29px;
+  height: 18px;
+  color: rgb(180, 180, 180);
+}
+
+.search-bar-input
+{
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  padding-left: 43px;
+  width: 200px;
+  height: 22px;
+  color: white;
+  background: rgb(32, 32, 36);
+}
+
+.search-bar-input::placeholder
+{
+  font-family: Inter;
+  color: rgb(156, 156, 157);
+}
+
+.discover-site, .browse-site, .news-site
+{
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  transition: background 400ms ease-in;
+  cursor: pointer;
+}
+
+.search-nav-bar-non-active
+{
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  color: rgb(156, 156, 157);
+  transition: color 300ms linear;
+}
+
+.search-nav-bar-non-active:hover
+{
+  color: white;
+}
+
+@media (max-width: 1000px)
+{
+  .search-bar
+  {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .search-bar
+  {
+    margin-left: 0px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar-input
+  {
+    display: none;
+  }
+
+  .magnify
+  {
+    display: none;
+  }
+}
