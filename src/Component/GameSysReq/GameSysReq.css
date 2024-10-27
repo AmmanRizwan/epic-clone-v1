@@ -152,6 +152,10 @@
 
 @media (max-width: 880px)
 {
+  .game-title-sys 
+  {
+    width: fit-content;
+  }
   .min-option p , .reco-option p
   {
     font-size: 13px;

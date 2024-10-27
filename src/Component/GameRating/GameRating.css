@@ -37,6 +37,11 @@
 {
   .player-rating h3, .player-rating p 
   {
-    margin-left: 20px;
+    width: fit-content;
+    margin-left: 30px;
+  }
+
+  .player-rating {
+    width: fit-content;
   }
 }

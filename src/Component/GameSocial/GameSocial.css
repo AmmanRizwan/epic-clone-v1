@@ -40,14 +40,22 @@
 
 @media (max-width: 880px)
 {
+  .social
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .twitter, .facebook, .instagram, .youtube, .discord, .reddit
   {
     width: 20px;
     height: 20px;
   }
-  .social-title
+  .social-title h1
   {
-    font-size: 16px;
+    font-size: 22px;
+    width: fit-content;
     margin-left: 20px;
   }
 
@@ -55,7 +63,7 @@
   {
     margin: 0px 10px;
     gap: 30px;
-    padding: 20px;
+    padding: 20px 50px;
   }
   
 }
