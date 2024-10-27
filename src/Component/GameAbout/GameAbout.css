@@ -263,7 +263,7 @@
 
   .game-para-info
   {
-    margin: 20px 20px;
+    margin: 20px 0px;
   }
   .buttons-genre, .feature-button
   {
@@ -304,11 +304,12 @@
 
   .game-title
   {
+    width: fit-content;
     font-size: 25px;
   }
-  .game-para-info
+  .description-game-type .game-para-info
   {
-    margin: 10px 10px;
+    line-height: 18px;
     font-size: 11px;
   }
 }

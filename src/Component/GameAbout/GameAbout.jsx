@@ -46,7 +46,7 @@ const GameAbout = (props) => {
             <button onClick={() => {addToWish(data.id)}}>Add To Wishlist</button>
           </div>
 
-          <div>
+          <div className="description-game-type">
       <div className="game-para-info">
       Embark on a journey acroos Teyvat to find your lost sibling and seek answers from The Seven - the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...
       </div>
