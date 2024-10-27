@@ -66,6 +66,10 @@
   {
     width: 100px;
   }
+  .game-bg-small-image
+  {
+    margin-bottom: 20px;
+  }
 
   .game-background, .game-main-image
   {

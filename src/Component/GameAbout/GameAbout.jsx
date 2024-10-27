@@ -39,13 +39,13 @@ const GameAbout = (props) => {
       </div>
 
           <GameImage data={data} />
-{/* 
+ 
           <div className="buyingbutton">
             <button className={data.price === "Free" ?"free-button":"purchase-button"} >{data.price === "Free" ? "Get" : "Buy Now"}</button>
             <button onClick={() => {addToCart(data.id)}}>Add To Cart</button>
             <button onClick={() => {addToWish(data.id)}}>Add To Wishlist</button>
           </div>
-
+{/*
           <div className="description-game-type">
       <div className="game-para-info">
       Embark on a journey acroos Teyvat to find your lost sibling and seek answers from The Seven - the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...
