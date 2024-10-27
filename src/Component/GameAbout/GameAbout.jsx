@@ -39,7 +39,7 @@ const GameAbout = (props) => {
       </div>
 
           <GameImage data={data} />
-
+{/* 
           <div className="buyingbutton">
             <button className={data.price === "Free" ?"free-button":"purchase-button"} >{data.price === "Free" ? "Get" : "Buy Now"}</button>
             <button onClick={() => {addToCart(data.id)}}>Add To Cart</button>
@@ -91,7 +91,7 @@ const GameAbout = (props) => {
 
       <GameSysReq data={data} />
 
-          </div>
+          </div> */}
         </div>
 
       </div>
