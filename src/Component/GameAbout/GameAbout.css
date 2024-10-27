@@ -240,7 +240,7 @@
 {
   .buyingbutton
   {
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     margin: 0px 20px;
@@ -288,10 +288,18 @@
   .buyingbutton
   {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 100px 100px 100px;
     justify-content: center;
     margin: 10px 10px;
     gap: 10px;
+  }
+
+  .buyingbutton button,
+  .buyingbutton .purchase-button, 
+  .buyingbutton .free-button
+  {
+    padding: 10px 7px;
+    font-size: 11px;
   }
 
   .game-title

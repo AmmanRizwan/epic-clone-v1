@@ -188,7 +188,6 @@ p
   .options
   {
     color: white;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -197,6 +196,11 @@ p
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 20px;
+  }
+
+  .options div
+  {
+    cursor: pointer;
   }
 
   .title-logo
