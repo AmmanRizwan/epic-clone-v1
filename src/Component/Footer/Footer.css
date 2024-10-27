@@ -159,19 +159,23 @@ hr{
     border: 2px solid white;
   }
 
-  .res-link p, .madeby-link p
+  .res-link, .madeby-link
   {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .res-heading, .madeby-heading
   {
-    font-size: 14px;
+    font-size: 13px;
   }
 
-  .term p
+  .term
   {
     font-size: 13px;
+  }
+  .footer-para
+  {
+    font-size: 12px;
   }
 }
 
@@ -185,6 +189,7 @@ hr{
   .res-link p, .madeby-link p
   {
     margin-bottom: 8px;
+    font-size: 12px;
   }
 
   .footer
@@ -211,6 +216,11 @@ hr{
     flex-direction: column;
     align-items: center;
   }
+
+  .footer-term .term p 
+  {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 650px)
@@ -222,6 +232,7 @@ hr{
 
   .footer-para
   {
+    font-size: 11px;
     width: auto;
   }
 }

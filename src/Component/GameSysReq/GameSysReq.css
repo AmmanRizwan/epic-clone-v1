@@ -227,10 +227,26 @@
   }
   .min-option p , .reco-option p
   {
-    font-size: 9px;
+    font-size: 11px;
   }
   .support-lang p 
   {
-    font-size: 9px;
+    font-size: 11px;
+  }
+  .support-lang h5
+  {
+    font-size: 13px;
+  }
+  .copyright h5 {
+    font-size: 12px;
+  }
+
+  .policy {
+    font-size: 12px;
+  }
+
+  .share-icon {
+    width: 15px;
+    height: 15px;
   }
 }

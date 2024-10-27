@@ -279,10 +279,10 @@
 {
   .buyingbutton
   {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    margin: 0px 10px;
+    margin: 10px 10px;
     gap: 10px;
   }
 
@@ -305,6 +305,6 @@
 
   .game-para-info
   {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
