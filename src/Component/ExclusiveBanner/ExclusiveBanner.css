@@ -261,7 +261,8 @@
 
   .exclusive-main-banner img 
   {
-    width: 360px;
+    margin: 0px 20px;
+    width: 320px;
   }
   .exclusive-main-banner-detail .game-detail
   {

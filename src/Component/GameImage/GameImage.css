@@ -76,8 +76,7 @@
   }
   .gameimage
   {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     justify-content: center;
   }
