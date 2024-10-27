@@ -263,7 +263,7 @@
 
   .game-para-info
   {
-    margin: 20px 0px;
+    margin: 20px 10px;
   }
   .buttons-genre, .feature-button
   {
@@ -278,7 +278,7 @@
   }
   .type-overview-section
   {
-    margin: 0px 20px;
+    margin: 0px 10px;
   }
 
 }
