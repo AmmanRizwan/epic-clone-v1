@@ -49,9 +49,6 @@ const GameAbout = (props) => {
       <div className="game-para-info">
       <p>Embark on a journey acroos Teyvat to find your lost sibling and seek answers from The Seven - the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...</p>
       </div>
-
-      <GameSocial />
-
 {/*
       <div className="type-overview-section">
         <div className="type-genres">
@@ -87,7 +84,7 @@ const GameAbout = (props) => {
         </div>
       </div>
 
-
+      <GameSocial />
 
       <GameRating />
 
