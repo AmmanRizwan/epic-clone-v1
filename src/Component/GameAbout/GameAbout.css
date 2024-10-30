@@ -158,7 +158,7 @@
   padding: 20px;
 }
 
-.game-para-info
+.game-para-info p
 {
   margin: 30px 0px;
   font-size: 14px;
@@ -261,9 +261,9 @@
     margin-left: 0px;
   }
 
-  .game-para-info
+  .game-para-info p
   {
-    margin: 20px 10px;
+    margin: 20px 0px;
   }
   .buttons-genre, .feature-button
   {
@@ -307,7 +307,7 @@
     width: fit-content;
     font-size: 25px;
   }
-  .description-game-type .game-para-info
+  .description-game-type .game-para-info p
   {
     line-height: 18px;
     font-size: 11px;
@@ -320,7 +320,7 @@
     font-size: 25px;
   }
 
-  .game-para-info
+  .game-para-info p
   {
     font-size: 11px;
   }
