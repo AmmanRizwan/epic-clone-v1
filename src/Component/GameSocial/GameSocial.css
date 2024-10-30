@@ -73,4 +73,8 @@
     width: 15px;
     height: 15px;
   }
+  .social-icon
+  {
+    padding: 20px 35px;
+  }
 }
