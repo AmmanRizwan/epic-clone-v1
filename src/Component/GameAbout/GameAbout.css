@@ -240,10 +240,10 @@
 {
   .buyingbutton
   {
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 20px;
+    margin: 0px 30px;
     gap: 10px;
   }
 
