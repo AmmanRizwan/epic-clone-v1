@@ -92,6 +92,7 @@
   background: rgb(96, 96, 96);
   padding: 3px 6px;
   border-radius: 4px;
+  font-family: Inter;
 }
 
 .line-type-genres hr 
@@ -334,7 +335,7 @@
 
   .game-para-info p
   {
-    width: 370px;
+    width: 320px;
     font-size: 11px;
   }
 }
