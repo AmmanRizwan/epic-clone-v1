@@ -98,6 +98,9 @@ const GameSysReq = (props) => {
                 )
               })}
             </div>
+            <div className="recom-title-1">
+              <h5>Recommended</h5>
+            </div>
             <div className="recommended-requirement">
               {recommended_requirement.map((item, index) => {
                 return (

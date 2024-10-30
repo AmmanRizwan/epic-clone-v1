@@ -106,6 +106,10 @@
   font-family: 500;
   line-height: 24px;
 }
+.recom-title
+{
+  display: flex;
+}
 
 .support-lang 
 {
@@ -119,6 +123,10 @@
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 7px;
+}
+.recom-title-1
+{
+  display: none;
 }
 
 .policy p
@@ -154,7 +162,7 @@
 {
   .game-title-sys
   {
-    width: 300px;
+    width: 500px;
   }
   .min-option p , .reco-option p
   {
@@ -184,6 +192,7 @@
   .os-system
   {
     padding: 20px 30px;
+    margin: 0px 20px;
   }
 
   .min-option h5, .reco-option h5
@@ -202,6 +211,7 @@
   .os-system
   {
     padding: 20px 30px;
+    margin: 0px 20px;
   }
   .min-option h5, .reco-option h5
   {
@@ -211,6 +221,10 @@
   {
     font-size: 12px;
     width: auto;
+  }
+  .game-title-sys
+  {
+    width: 400px;
   }
   
   .support-lang p 
@@ -222,26 +236,67 @@
 
 @media (max-width: 540px)
 {
+  .game-sys-req
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .minimum
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .game-title-sys
+  {
+    width: 300px;
+  }
   .min-option h5, .reco-option h5
   {
     font-size: 11px;
   }
   .requirement
   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
   }
+  .recom-title
+  {
+    display: none;
+  }
+  .recom-title-1
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .recom-title-1 h5
+  {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
   .os-system
   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
     overflow-x: scroll;
-    margin: 0px 20px;
     scrollbar-width: none;
-    padding: 25px 15px;
+    padding: 25px 25px;
   }
   .min-option p , .reco-option p
   {
     font-size: 11px;
   }
-  .support-lang p 
+  .support-lang
   {
     width: fit-content;
     font-size: 11px;
