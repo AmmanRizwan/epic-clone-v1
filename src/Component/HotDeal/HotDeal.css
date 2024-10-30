@@ -79,8 +79,12 @@
     display: flex;
     justify-content: left;
     margin-left: 20px;
-    margin-right: 20px;
     overflow-x: scroll;
     scrollbar-width: none;
+  }
+
+  .hot-deal-img
+  {
+    margin-right: 20px;
   }
 }

@@ -55,4 +55,9 @@
     overflow-x: scroll;
     scrollbar-width: none;
   }
+
+  .exclusive-offer-img
+  {
+    margin-right: 20px;
+  }
 }
