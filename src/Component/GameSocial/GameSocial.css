@@ -61,9 +61,16 @@
 
   .social-icon
   {
-    margin: 0px 10px;
     gap: 30px;
     padding: 20px 50px;
   }
-  
+}
+
+@media (max-width: 400px)
+{
+  .twitter, .facebook, .instagram, .youtube, .discord, .reddit
+  {
+    width: 15px;
+    height: 15px;
+  }
 }

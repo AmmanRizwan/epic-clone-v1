@@ -84,12 +84,13 @@ const GameAbout = (props) => {
         </div>
       </div>
 
-      <GameSocial />
+
 
       <GameRating />
 
       <GameSysReq data={data} />
  */}
+       <GameSocial />
           </div>
         </div>
 
