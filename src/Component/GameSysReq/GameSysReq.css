@@ -291,6 +291,7 @@
     overflow-x: scroll;
     scrollbar-width: none;
     padding: 25px 25px;
+    margin: 10px 0px;
   }
   .min-option p , .reco-option p
   {
