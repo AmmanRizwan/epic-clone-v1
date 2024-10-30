@@ -152,9 +152,9 @@
 
 @media (max-width: 880px)
 {
-  .game-title-sys 
+  .game-title-sys
   {
-    width: fit-content;
+    width: 300px;
   }
   .min-option p , .reco-option p
   {
@@ -181,13 +181,17 @@
   {
     width: auto;
   }
+  .os-system
+  {
+    padding: 20px 30px;
+  }
 
   .min-option h5, .reco-option h5
   {
     font-size: 12px;
   }
   
-  .game-title-sys h5
+  .game-title-sys
   {
     margin-left: 20px;
   }
@@ -211,6 +215,7 @@
   
   .support-lang p 
   {
+    width: fit-content;
     font-size: 12px;
   }
 }
@@ -227,10 +232,10 @@
   }
   .os-system
   {
-    overflow-x: hidden;
+    overflow-x: scroll;
     margin: 0px 20px;
     scrollbar-width: none;
-    padding: 25px 5px;
+    padding: 25px 15px;
   }
   .min-option p , .reco-option p
   {
@@ -238,6 +243,7 @@
   }
   .support-lang p 
   {
+    width: fit-content;
     font-size: 11px;
   }
   .support-lang h5

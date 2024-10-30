@@ -86,11 +86,11 @@ const GameAbout = (props) => {
 
       <GameSocial />
 
-
-
-      <GameSysReq data={data} />
- */}
       <GameRating />
+
+
+ */}
+           <GameSysReq data={data} />
           </div>
         </div>
 

@@ -51,7 +51,7 @@
   {
     display: flex;
     justify-content: left;
-    margin-left: 20px;
+    margin: 40px 20px;
     overflow-x: scroll;
     scrollbar-width: none;
   }
