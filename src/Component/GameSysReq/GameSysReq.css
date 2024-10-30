@@ -227,6 +227,9 @@
   }
   .os-system
   {
+    overflow-x: hidden;
+    margin: 0px 20px;
+    scrollbar-width: none;
     padding: 25px 5px;
   }
   .min-option p , .reco-option p

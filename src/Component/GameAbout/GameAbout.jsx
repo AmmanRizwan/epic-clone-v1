@@ -45,11 +45,11 @@ const GameAbout = (props) => {
             <button onClick={() => {addToCart(data.id)}}>Add To Cart</button>
             <button onClick={() => {addToWish(data.id)}}>Add To Wishlist</button>
           </div>
-
+{/*
       <div className="game-para-info">
       <p>Embark on a journey acroos Teyvat to find your lost sibling and seek answers from The Seven - the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...</p>
       </div>
-{/*
+
       <div className="type-overview-section">
         <div className="type-genres">
           <div className="genre-title">

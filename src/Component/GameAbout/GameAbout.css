@@ -307,6 +307,11 @@
     width: fit-content;
     font-size: 25px;
   }
+  .game-rating, .overview-side, .game-title
+  {
+    margin-left: 10px;
+  }
+
   .description-game-type .game-para-info p
   {
     line-height: 18px;
@@ -316,6 +321,12 @@
 
 @media (max-width: 500px)
 {
+  .game-para-info
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .game-title{
     font-size: 25px;
   }
